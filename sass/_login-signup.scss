@@ -1,0 +1,66 @@
+.form_group {
+  position: relative;
+  margin-bottom: 20px;
+
+  .showHide {
+    padding: 4px 10px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 18px;
+    color: color(accent);
+  }
+
+  .txt-error {
+    color: color(accent);
+    font-size: 12px;
+    text-align: left;
+    display: block;
+  }
+}
+
+.form_bg {
+  img.logo {
+    margin: 15px auto;
+    max-width: 100px;
+    display: block;
+  }
+}
+
+.formBlock {
+  border: 1px solid #dddddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0 auto 30px;
+  max-width: 450px;
+
+  a {
+    color: color(accent);
+  }
+
+  h3 {
+    line-height: normal;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .submitBtn {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+  }
+
+  .accLink {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+}

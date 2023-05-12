@@ -1,0 +1,18 @@
+@mixin flex($content, $wrapping) {
+  display: flex;
+  align-items: center;
+  justify-content: $content;
+  flex-wrap: $wrapping;
+}
+
+@mixin btnTheme {
+  border-radius: 7px;
+  background-color: color(accent);
+  color: color(white);
+  padding: 8px 15px;
+  min-width: 99px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 600;
+  outline: 0;
+}
